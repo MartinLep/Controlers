@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  pwControls
+//
+//  Created by MartinLee on 17/3/24.
+//  Copyright © 2017年 MartinLee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+//添加的全局宏
+#define MAS_SHORTHAND
+
+//添加的全局类
+#import "Masonry.h"
+
+#import "UIImage+pwAddition.h"
+#import "UIView+pwAddition.h"
+#import "NSArray+NSLog.h"
+#import "NSString+pwPath.h"
+#import "NSString+pwBase64.h"
+#import "UIButton+pwAddition.h"
+#import "UIColor+pwAddition.h"
+#import "UIScreen+pwAddition.h"
+#import "ReactiveCocoa.h"
