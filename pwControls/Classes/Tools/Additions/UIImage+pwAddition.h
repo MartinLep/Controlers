@@ -12,4 +12,7 @@
 @interface UIImage (pwAddition)
 
 - (UIImage *)pwImageWithColor:(UIColor *)color;
+
+- (UIImage *)circleImage:(UIImage *)image withParam:(CGFloat)inset;
+
 @end

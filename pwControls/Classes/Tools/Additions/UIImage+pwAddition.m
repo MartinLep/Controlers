@@ -27,4 +27,21 @@
     return newImage;
 }
 
+- (UIImage *)circleImage:(UIImage *)image withParam:(CGFloat)inset{
+    UIGraphicsBeginImageContext(image.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetLineWidth(context, 2);
+    CGContextSetStrokeColorWithColor(context, [UIColor redColor].CGColor);
+    CGRect rect = CGRectMake(inset, inset, image.size.width-inset*2, image.size.width - inset*2);
+    CGContextAddEllipseInRect(context, rect);
+    CGContextClip(context);
+    
+    [image drawInRect:rect];
+    CGContextAddEllipseInRect(context, rect);
+    CGContextStrokePath(context);
+    UIImage *newImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsGetCurrentContext();
+    return newImage;
+}
+
 @end

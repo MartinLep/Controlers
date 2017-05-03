@@ -31,7 +31,7 @@
     _imageView = [[UIImageView alloc] init];
     _imageView.frame = CGRectMake(0, 100, [UIScreen pwScreenWidth], [UIScreen pwScreenHeight]-100);
     _imageView.contentMode = UIViewContentModeScaleAspectFit;
-    _imageView.image = [UIImage imageNamed:@"0.jpg"];
+    _imageView.image = [UIImage imageNamed:@"0_0.jpg"];
     [self.view addSubview:_imageView];
     
     //添加手势
@@ -80,7 +80,7 @@
     }else{
         _currentIndex = (_currentIndex-1+IMAGE_COUNT)%IMAGE_COUNT;
     }
-    NSString *imageName = [NSString stringWithFormat:@"%d.jpg",_currentIndex];
+    NSString *imageName = [NSString stringWithFormat:@"%d_0.jpg",_currentIndex];
     return [UIImage imageNamed:imageName];
 }
 

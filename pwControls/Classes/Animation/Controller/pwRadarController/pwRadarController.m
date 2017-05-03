@@ -26,4 +26,32 @@
     [self.radarView radarScan];
 }
 
+- (void)setUpUI{
+    [super setUpUI];
+    [self.tableView removeFromSuperview];
+    
+    UIImageView *imageView = [[UIImageView alloc] init];
+    UIImage *image = [UIImage imageNamed:@"1_0.jpg"];
+    //image = [image circleImage:image withParam:180];
+    
+    UIGraphicsBeginImageContextWithOptions(image.size, NO, 0);
+    
+    NSLog(@"imageSize = %@",NSStringFromCGSize(image.size));
+    UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, image.size.width, image.size.height)];
+    [path addClip];
+    
+    [image drawAtPoint:CGPointZero];
+    
+    imageView.image = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndPDFContext();
+    
+    [self.view addSubview:imageView];
+    
+    [imageView makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.view).offset(20);
+        make.size.mas_equalTo(CGSizeMake(200, 200));
+    }];
+}
 @end
