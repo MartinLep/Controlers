@@ -7,85 +7,69 @@
 //
 
 #import "pwProfileViewController.h"
-
-
-//链式编程特点：方法的返回值是block,block必须有返回值（本身对象），block参数（需要操作的值）
-//代表：masonry框架。
-@interface CaculatorMaker : NSObject
-
-@property (nonatomic,assign) NSInteger result;
-
-+ (NSInteger)makeCaculate:(void(^)(CaculatorMaker *))block;
-
-- (CaculatorMaker *(^)(NSInteger))add;
-- (CaculatorMaker *(^)(NSInteger))sub;
-
-@end
-
-@implementation CaculatorMaker
-
-- (CaculatorMaker *(^)(NSInteger))add{
-    return ^CaculatorMaker *(NSInteger num){
-        _result += num;
-        return self;
-    };
-}
-
-- (CaculatorMaker *(^)(NSInteger))sub{
-    return ^CaculatorMaker*(NSInteger num){
-        _result -= num;
-        return self;
-    };
-}
-
-+ (NSInteger)makeCaculate:(void (^)(CaculatorMaker *))block{
-    if(block){
-        CaculatorMaker *maker = [[CaculatorMaker alloc] init];
-        block(maker);
-        return maker.result;
-    }
-    return 0;
-}
-@end
-
-
-//函数式编程思想：是把操作尽量写成一系列嵌套的函数或者方法调用。
-
-//函数式编程特点：每个方法必须有返回值（本身对象）,把函数或者Block当做参数,block参数（需要操作的值）block返回值（操作结果）
-
-//代表：ReactiveCocoa
-
-@interface Calulator : NSObject
-
-@property (nonatomic,assign) BOOL isEqual;
-@property (nonatomic,assign) int result;
-
-- (Calulator *)caculator:(int(^)(int result))caculator;
-- (Calulator *)equle:(BOOL(^)(int result))operation;
-
-@end
-
-
+#import "pwChainCaculatorBlock.h"
+#import "NSObject+Property.h"
+#import "NSDictionary+Property.h"
+#import "Animal.h"
 @interface pwProfileViewController ()
+
+@property (nonatomic,strong) NSArray *dataArray;
 
 @end
 
 @implementation pwProfileViewController
 
-- (void)viewWillAppear:(BOOL)animated{
-    NSInteger result = [CaculatorMaker makeCaculate:^(CaculatorMaker *maker) {
-        maker.add(10).add(10);
-    }];
-    NSLog(@"result = %zd",result);
+
+- (NSArray *)dataArray{
+    if(_dataArray == nil){
+        _dataArray = [NSArray arrayWithObjects:@"链式编程",@"消息机制",@"RunTime实现字典转模型",nil];
+    }
+    return _dataArray;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return self.dataArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *cellId = @"cellID";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if(cell == nil){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    cell.textLabel.text = self.dataArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
+    switch (indexPath.row) {
+        case 0:{
+            pwChainCaculatorBlock *block = [[pwChainCaculatorBlock alloc] init];
+            block.add(5).add(3);
+            NSLog(@"result = %d",block.result);
+        }
+            break;
+        case 1:{
+            Animal *animal = [[Animal alloc] init];
+            [animal performSelector:@selector(animal:) withObject:@6];
+            
+            NSObject *obj = [[NSObject alloc] init];
+            obj.name = @"abc";
+        }
+            break;
+        case 2:{
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"status.plist" ofType:nil];
+            NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
+            [dict createPropertyCode];
+        }
+            break;
+        default:
+            break;
+    }
 }
 
 @end

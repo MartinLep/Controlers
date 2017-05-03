@@ -47,14 +47,15 @@
     [self.timerInC addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSRunLoopCommonModes];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    [button setTitle:@"play" forState:UIControlStateNormal];
+    //[button setTitle:@"play" forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@"account_spinner"] forState:UIControlStateNormal];
     [button setBackgroundColor:[UIColor whiteColor]];
     [button addTarget:self action:@selector(gifAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
     [button makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);
         make.bottom.mas_equalTo(self.view).offset(-5);
-        make.size.mas_equalTo(CGSizeMake(80, 30));
+        make.size.mas_equalTo(CGSizeMake(30, 30));
     }];
     
 }

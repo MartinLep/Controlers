@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E5BAD99156078B7FDF6CB2C /* libPods-pwControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67CCEFFB2DDC6784165E3786 /* libPods-pwControls.a */; };
-		BD4BECF11EA7B18B0090B448 /* vvv.gif in Resources */ = {isa = PBXBuildFile; fileRef = BD4BECF01EA7B18B0090B448 /* vvv.gif */; };
 		BD68926F1EA45960001DC57E /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926A1EA45960001DC57E /* 0.jpg */; };
 		BD6892701EA45960001DC57E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926B1EA45960001DC57E /* 1.jpg */; };
 		BD6892711EA45960001DC57E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926C1EA45960001DC57E /* 2.jpg */; };
@@ -92,6 +91,7 @@
 		BD68933A1EA5B49F001DC57E /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD6892EF1EA5B49F001DC57E /* 9.jpg */; };
 		BD6894221EA77CBA001DC57E /* pwGifAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6894211EA77CBA001DC57E /* pwGifAnimationViewController.m */; };
 		BD68942D1EA77F07001DC57E /* UIImageView+GifTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD68942C1EA77F07001DC57E /* UIImageView+GifTool.m */; };
+		BD6894781EA8DE91001DC57E /* account_spinner.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6894771EA8DE91001DC57E /* account_spinner.png */; };
 		BD7B92D11E1B39BB00EA9689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7B92D01E1B39BB00EA9689 /* main.m */; };
 		BD7B92D41E1B39BB00EA9689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7B92D31E1B39BB00EA9689 /* AppDelegate.m */; };
 		BD7B92DC1E1B39BB00EA9689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7B92DB1E1B39BB00EA9689 /* Assets.xcassets */; };
@@ -251,6 +251,12 @@
 		BDC758551EA0BD0300C47689 /* pwLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC758541EA0BD0300C47689 /* pwLayer.m */; };
 		BDC758581EA0BEB200C47689 /* pwView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC758571EA0BEB200C47689 /* pwView.m */; };
 		BDC7585C1EA0C91F00C47689 /* pwTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC7585B1EA0C91F00C47689 /* pwTransitionController.m */; };
+		BDDF87801EB33AEA00D64018 /* pwChainCaculatorBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF877F1EB33AEA00D64018 /* pwChainCaculatorBlock.m */; };
+		BDDF87851EB8673A00D64018 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF87841EB8673A00D64018 /* Animal.m */; };
+		BDDF87881EB8772800D64018 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF87871EB8772800D64018 /* NSObject+Property.m */; };
+		BDDF878A1EB8811000D64018 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = BDDF87891EB8811000D64018 /* status.plist */; };
+		BDDF878D1EB883FC00D64018 /* pwStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF878C1EB883FC00D64018 /* pwStatusModel.m */; };
+		BDDF87901EB885D300D64018 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF878F1EB885D300D64018 /* NSDictionary+Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -258,7 +264,6 @@
 		67CCEFFB2DDC6784165E3786 /* libPods-pwControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pwControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CB5CB120CB762C0FFD42C3 /* Pods-pwControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pwControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pwControls/Pods-pwControls.debug.xcconfig"; sourceTree = "<group>"; };
 		BD09EFFC1E84E847000AC6CC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = pwControls/PrefixHeader.pch; sourceTree = "<group>"; };
-		BD4BECF01EA7B18B0090B448 /* vvv.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = vvv.gif; sourceTree = "<group>"; };
 		BD68926A1EA45960001DC57E /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
 		BD68926B1EA45960001DC57E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		BD68926C1EA45960001DC57E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -345,6 +350,7 @@
 		BD6894211EA77CBA001DC57E /* pwGifAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwGifAnimationViewController.m; sourceTree = "<group>"; };
 		BD68942B1EA77F07001DC57E /* UIImageView+GifTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GifTool.h"; sourceTree = "<group>"; };
 		BD68942C1EA77F07001DC57E /* UIImageView+GifTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GifTool.m"; sourceTree = "<group>"; };
+		BD6894771EA8DE91001DC57E /* account_spinner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account_spinner.png; sourceTree = "<group>"; };
 		BD7B92CC1E1B39BB00EA9689 /* pwControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pwControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7B92D01E1B39BB00EA9689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD7B92D21E1B39BB00EA9689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -666,6 +672,17 @@
 		BDC758571EA0BEB200C47689 /* pwView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwView.m; sourceTree = "<group>"; };
 		BDC7585A1EA0C91F00C47689 /* pwTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwTransitionController.h; sourceTree = "<group>"; };
 		BDC7585B1EA0C91F00C47689 /* pwTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwTransitionController.m; sourceTree = "<group>"; };
+		BDDF877E1EB33AEA00D64018 /* pwChainCaculatorBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwChainCaculatorBlock.h; sourceTree = "<group>"; };
+		BDDF877F1EB33AEA00D64018 /* pwChainCaculatorBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwChainCaculatorBlock.m; sourceTree = "<group>"; };
+		BDDF87831EB8673A00D64018 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		BDDF87841EB8673A00D64018 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		BDDF87861EB8772800D64018 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		BDDF87871EB8772800D64018 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		BDDF87891EB8811000D64018 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		BDDF878B1EB883FC00D64018 /* pwStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwStatusModel.h; sourceTree = "<group>"; };
+		BDDF878C1EB883FC00D64018 /* pwStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwStatusModel.m; sourceTree = "<group>"; };
+		BDDF878E1EB885D300D64018 /* NSDictionary+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		BDDF878F1EB885D300D64018 /* NSDictionary+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
 		BDF89AE11E4848D5006AD719 /* pwControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pwControls.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -711,6 +728,7 @@
 		BD6892A41EA5B49F001DC57E /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BD6894771EA8DE91001DC57E /* account_spinner.png */,
 				BD6892A51EA5B49F001DC57E /* 1.jpg */,
 				BD6892A61EA5B49F001DC57E /* 10.jpg */,
 				BD6892A71EA5B49F001DC57E /* 11.jpg */,
@@ -793,7 +811,6 @@
 		BD68941C1EA77C4C001DC57E /* GifAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BD4BECF01EA7B18B0090B448 /* vvv.gif */,
 				BD6894201EA77CBA001DC57E /* pwGifAnimationViewController.h */,
 				BD6894211EA77CBA001DC57E /* pwGifAnimationViewController.m */,
 			);
@@ -1294,6 +1311,13 @@
 		BDC7565F1E9F1B2000C47689 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BDDF87891EB8811000D64018 /* status.plist */,
+				BDDF87831EB8673A00D64018 /* Animal.h */,
+				BDDF87841EB8673A00D64018 /* Animal.m */,
+				BDDF87861EB8772800D64018 /* NSObject+Property.h */,
+				BDDF87871EB8772800D64018 /* NSObject+Property.m */,
+				BDDF878B1EB883FC00D64018 /* pwStatusModel.h */,
+				BDDF878C1EB883FC00D64018 /* pwStatusModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1308,6 +1332,8 @@
 		BDC756611E9F1B2000C47689 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BDDF877E1EB33AEA00D64018 /* pwChainCaculatorBlock.h */,
+				BDDF877F1EB33AEA00D64018 /* pwChainCaculatorBlock.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1348,6 +1374,8 @@
 				BDC756731E9F1B2000C47689 /* UIScreen+pwAddition.m */,
 				BDC756741E9F1B2000C47689 /* UIView+pwAddition.h */,
 				BDC756751E9F1B2000C47689 /* UIView+pwAddition.m */,
+				BDDF878E1EB885D300D64018 /* NSDictionary+Property.h */,
+				BDDF878F1EB885D300D64018 /* NSDictionary+Property.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -1781,6 +1809,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD6893221EA5B49F001DC57E /* 55.jpg in Resources */,
+				BD6894781EA8DE91001DC57E /* account_spinner.png in Resources */,
 				BD6893151EA5B49F001DC57E /* 43.jpg in Resources */,
 				BD6892701EA45960001DC57E /* 1.jpg in Resources */,
 				BDC757711E9F1B2100C47689 /* refreshing_04.png in Resources */,
@@ -1804,6 +1833,7 @@
 				BD68930B1EA5B49F001DC57E /* 34.jpg in Resources */,
 				BD6893371EA5B49F001DC57E /* 74.jpg in Resources */,
 				BD6892F41EA5B49F001DC57E /* 13.jpg in Resources */,
+				BDDF878A1EB8811000D64018 /* status.plist in Resources */,
 				BD6893181EA5B49F001DC57E /* 46.jpg in Resources */,
 				BD6893051EA5B49F001DC57E /* 29.jpg in Resources */,
 				BD6893091EA5B49F001DC57E /* 32.jpg in Resources */,
@@ -1837,7 +1867,6 @@
 				BD68932A1EA5B49F001DC57E /* 62.jpg in Resources */,
 				BD68931F1EA5B49F001DC57E /* 52.jpg in Resources */,
 				BD6892F01EA5B49F001DC57E /* 1.jpg in Resources */,
-				BD4BECF11EA7B18B0090B448 /* vvv.gif in Resources */,
 				BD6893321EA5B49F001DC57E /* 7.jpg in Resources */,
 				BD6892F61EA5B49F001DC57E /* 15.jpg in Resources */,
 				BD6893131EA5B49F001DC57E /* 41.jpg in Resources */,
@@ -1955,6 +1984,7 @@
 				BDC757EB1E9F1B2100C47689 /* UIImagePickerController+RACSignalSupport.m in Sources */,
 				BDC757A51E9F1B2100C47689 /* NSObject+RACKVOWrapper.m in Sources */,
 				BDC7579A1E9F1B2100C47689 /* MKAnnotationView+RACSignalSupport.m in Sources */,
+				BDDF87901EB885D300D64018 /* NSDictionary+Property.m in Sources */,
 				BDC757D21E9F1B2100C47689 /* RACSignal.m in Sources */,
 				BDC757CF1E9F1B2100C47689 /* RACSequence.m in Sources */,
 				BDC757691E9F1B2100C47689 /* pwSettingViewController.m in Sources */,
@@ -2011,6 +2041,7 @@
 				BDC757971E9F1B2100C47689 /* pwMethodSwizzling.m in Sources */,
 				BDC7578C1E9F1B2100C47689 /* NSString+pwPath.m in Sources */,
 				BDC757B21E9F1B2100C47689 /* RACBlockTrampoline.m in Sources */,
+				BDDF87801EB33AEA00D64018 /* pwChainCaculatorBlock.m in Sources */,
 				BDC757CD1E9F1B2100C47689 /* RACScheduler.m in Sources */,
 				BDC757C01E9F1B2100C47689 /* RACEvent.m in Sources */,
 				BDC757B91E9F1B2100C47689 /* RACDynamicPropertySuperclass.m in Sources */,
@@ -2021,6 +2052,7 @@
 				BDC757B11E9F1B2100C47689 /* RACBehaviorSubject.m in Sources */,
 				BDC7577A1E9F1B2100C47689 /* pwSettingSectionModel.m in Sources */,
 				BDC757E21E9F1B2100C47689 /* UIActionSheet+RACSignalSupport.m in Sources */,
+				BDDF87881EB8772800D64018 /* NSObject+Property.m in Sources */,
 				BDC757B41E9F1B2100C47689 /* RACCommand.m in Sources */,
 				BD6894221EA77CBA001DC57E /* pwGifAnimationViewController.m in Sources */,
 				BDC757821E9F1B2100C47689 /* pwMessageViewController.m in Sources */,
@@ -2065,10 +2097,12 @@
 				BDC757DB1E9F1B2100C47689 /* RACTargetQueueScheduler.m in Sources */,
 				BDC7577F1E9F1B2100C47689 /* pwJsonMessageModel.m in Sources */,
 				BDC7577C1E9F1B2100C47689 /* pwNavigationController.m in Sources */,
+				BDDF878D1EB883FC00D64018 /* pwStatusModel.m in Sources */,
 				BDC757811E9F1B2100C47689 /* pwPlistViewController.m in Sources */,
 				BDC757AB1E9F1B2100C47689 /* NSString+RACKeyPathUtilities.m in Sources */,
 				BDC757921E9F1B2100C47689 /* UIBarButtonItem+pwExtension.m in Sources */,
 				BDC757BA1E9F1B2100C47689 /* RACDynamicSequence.m in Sources */,
+				BDDF87851EB8673A00D64018 /* Animal.m in Sources */,
 				BDC757661E9F1B2100C47689 /* pwHUDViewController.m in Sources */,
 				BDC7578D1E9F1B2100C47689 /* UIButton+pwAddition.m in Sources */,
 				BDC757DA1E9F1B2100C47689 /* RACSubscriptionScheduler.m in Sources */,
@@ -2196,6 +2230,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CM4BDVY9GY;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pwControls/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2236,6 +2271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CM4BDVY9GY;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pwControls/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",

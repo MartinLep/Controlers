@@ -19,7 +19,6 @@
 @interface pwDiscoverViewController ()
 
 @property (nonatomic,strong) NSMutableArray *dataArray;
-@property (nonatomic,strong) NSMutableArray *mClassArray;
 @end
 
 static NSString *cellID = @"cellID";
@@ -33,7 +32,7 @@ static NSString *cellID = @"cellID";
 
 - (NSMutableArray *)dataArray{
     if(_dataArray == nil){
-        _dataArray = [[NSMutableArray alloc] initWithObjects:@"自定义提示框",@"雷达动画",@"RACSignal",@"Animation", @"CALayer",@"转场动画",@"CADisplayLnik",@"GifAnimation",nil];
+        _dataArray = [[NSMutableArray alloc] initWithObjects:@"自定义提示框",@"雷达动画",@"RACSignal",@"Animation", @"CALayer",@"转场动画",@"CADisplayLnik",nil];
     }
     return _dataArray;
 }
@@ -48,21 +47,42 @@ static NSString *cellID = @"cellID";
     return self.dataArray.count;
 }
 
-- (NSMutableArray *)mClassArray{
-    if(_mClassArray == nil){
-        _mClassArray = [NSMutableArray arrayWithObjects:@"",@"pwRadarController",@"",@"pwCoreAnimationController",@"LayerViewController",@"pwTransitionController",@"pwDisplayLinkController",@"pwGifAnimationViewController",@"",@"",@"",@"", nil];
-    }
-    return _mClassArray;
-}
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:true];
-    if(indexPath.row == 0){
-        [self getAlertIndex];
-    }else if (indexPath.row == 2){
-        [self racsignalTest];
-    }else{
-        [self.navigationController pushViewController:[NSClassFromString(self.mClassArray[indexPath.row]) new] animated:true];
+    switch (indexPath.row) {
+        case 0:
+            [self getAlertIndex];
+            break;
+        case 1:{
+            pwRadarController *view = [[pwRadarController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 2:
+            [self racsignalTest];
+            break;
+        case 3:{
+            pwCoreAnimationController *view = [[pwCoreAnimationController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 4:{
+            LayerViewController *view = [[LayerViewController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 5:{
+            pwTransitionController *view = [[pwTransitionController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 6:{
+            pwDisplayLinkController * view = [[pwDisplayLinkController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        default:
+            break;
     }
 }
 
@@ -74,8 +94,7 @@ static NSString *cellID = @"cellID";
 //    [self presentViewController:alert animated:YES completion:^(void){
 //        alert.view.superview.backgroundColor = [UIColor clearColor];
 //    }];
-    
-    pwAlertView *alert = [pwAlertView pwShowAlertWithType:AlertTitle title:@"title" message:@"message" placeHolder:@"text" okButton:@"ok" cancleButton:@"cancel" okActionHandler:^(NSString *title) {
+    pwAlertView *alert = [[pwAlertView alloc] initAlertWithType:AlertTitle title:@"title" message:@"message" placeHolder:@"text" okButton:@"ok" cancleButton:@"cancel" okActionHandler:^(NSString *title) {
         NSLog(@"title = %@",title);
     } cancelActionHandler:^{
         NSLog(@"点击了取消按钮");

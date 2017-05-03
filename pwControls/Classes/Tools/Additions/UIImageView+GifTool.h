@@ -8,12 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-static NSString * const kImageViewGifFinish = @"kImageViewGifFinish";
-static NSString * const kImageViewGifStart = @"kImageViewGifStart";
-static NSString * const kImageViewGifCancel = @"kImageViewGifCancel";
-
-
-@interface UIImageView (GifTool)<CAAnimationDelegate>
+@interface UIImageView (GifTool)
 
 /**
  保存动画每帧的数组
