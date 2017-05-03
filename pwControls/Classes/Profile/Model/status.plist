@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>attitudes_count</key>
+	<integer>3</integer>
+	<key>comments_count</key>
+	<integer>0</integer>
+	<key>created_at</key>
+	<string>刚刚</string>
+	<key>idstr</key>
+	<string>3824316141411024</string>
+	<key>pic_urls</key>
+	<array>
+		<dict>
+			<key>thumbnail_pic</key>
+			<string>http://ww4.sinaimg.cn/thumbnail/80292f4btw1eqi01myf23j20br08ogm0.jpg</string>
+		</dict>
+	</array>
+	<key>reposts_count</key>
+	<integer>0</integer>
+	<key>source</key>
+	<string>来自微博 weibo.com</string>
+	<key>text</key>
+	<string>媳妇手机没电了就放桌上了，我给充好放窗台了，2货媳妇发现手机电满的，很兴奋的跟我说她手机可以太阳能充电…#猪猪爱讲冷笑话#</string>
+	<key>user</key>
+	<dict>
+		<key>mbrank</key>
+		<integer>4</integer>
+		<key>mbtype</key>
+		<integer>12</integer>
+		<key>name</key>
+		<string>猪猪爱讲冷笑话</string>
+		<key>profile_image_url</key>
+		<string>http://tp4.sinaimg.cn/2150182731/50/5613586011/1</string>
+		<key>vip</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

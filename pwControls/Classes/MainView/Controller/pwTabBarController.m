@@ -49,8 +49,8 @@
     NSDictionary *homeDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwHomeViewController",@"clsName",@"控件",@"title",@"home",@"imageName", nil];
     NSDictionary *ablumDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwMessageViewController",@"clsName",@"网络",@"title",@"message_center",@"imageName", nil];
     NSDictionary *addDic = [NSDictionary dictionaryWithObjectsAndKeys:@"UIViewController",@"clsName", nil];
-    NSDictionary *alertDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwDiscoverViewController",@"clsName",@"发现",@"title",@"discover",@"imageName", nil];
-    NSDictionary *profileDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwProfileViewController",@"clsName",@"我的",@"title",@"profile",@"imageName", nil];
+    NSDictionary *alertDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwDiscoverViewController",@"clsName",@"动画",@"title",@"discover",@"imageName", nil];
+    NSDictionary *profileDic = [NSDictionary dictionaryWithObjectsAndKeys:@"pwProfileViewController",@"clsName",@"架构",@"title",@"profile",@"imageName", nil];
     NSArray *viewArr = [NSArray arrayWithObjects:homeDic,ablumDic,addDic,alertDic,profileDic,nil];
 
     NSMutableArray *arrayM = [[NSMutableArray alloc] init];
