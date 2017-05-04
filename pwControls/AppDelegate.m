@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "pwTabBarController.h"
-
+#import "pwParentViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    pwTabBarController *rootView = [pwTabBarController new];
+    pwParentViewController *rootView = [pwParentViewController new];
     self.window.rootViewController = rootView;
     [self.window makeKeyAndVisible];
     return YES;

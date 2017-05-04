@@ -6,8 +6,8 @@
 //  Copyright © 2017年 MartinLee. All rights reserved.
 //
 
-#import "pwBaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface pwParentViewController : pwBaseViewController
+@interface pwParentViewController : UIViewController
 
 @end
