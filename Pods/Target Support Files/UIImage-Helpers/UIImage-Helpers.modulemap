@@ -1,6 +1,0 @@
-framework module UIImage_Helpers {
-  umbrella header "UIImage-Helpers-umbrella.h"
-
-  export *
-  module * { export * }
-}

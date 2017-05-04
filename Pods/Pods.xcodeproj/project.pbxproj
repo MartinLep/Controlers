@@ -123,7 +123,7 @@
 		0138E45F2628A009BAC21FA9699C0669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		01587858C3D8FF6702999750A6F89229 /* Pods-pwControls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pwControls-acknowledgements.plist"; sourceTree = "<group>"; };
 		017EA12C932E864F0B1D2C84BF35D05C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		02C02D451AE95EED76EAC767B36FEABC /* libPods-pwControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pwControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C02D451AE95EED76EAC767B36FEABC /* libPods-pwControls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-pwControls.a"; path = "libPods-pwControls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		045E12CE17DCA378FD8B51DDACB7B7E7 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ImageWithColor.m"; path = "UIImage-Helpers/UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
 		04D93515429B9ACB3B0D575E36D51AA2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		079E8375D6BDD96A7E0DFED4AB871499 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 		1AFF11882C385EC0EE84E63B55A3A49B /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		1B054780B5E2297D4EEC45C9990B9683 /* UIImage-Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage-Helpers.h"; path = "UIImage-Helpers/UIImage-Helpers.h"; sourceTree = "<group>"; };
 		1C2F4A6581F104C702971752DEE75CB2 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
-		1D5A2E756ECFB136D7BFB65DDEDA59C3 /* libUIImage-Helpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIImage-Helpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D5A2E756ECFB136D7BFB65DDEDA59C3 /* libUIImage-Helpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUIImage-Helpers.a"; path = "libUIImage-Helpers.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F16480283D9E42F0313F6CD0CA02DFB /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		2119A679D189F5849EC8802FDB7FB72C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		21B62F08DCB9A1A6E075B73B7A787F8E /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		5036EA7D62C008E1EA4E6191F931F238 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		5264E99BCD21AA3AADDA69BA23BCC07E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		549BC800087948E493EF6C5DE2CBD5F5 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		581F1A24C40307B8CE1BE9CAD5F87412 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		581F1A24C40307B8CE1BE9CAD5F87412 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CADF7AA53EB89126A7F411E3A41BEC5 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		63B88ABC3B4FD7D2AD50F39F431D7D26 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		6484413F6D7750A911E2143977F0A1C8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
@@ -174,9 +174,9 @@
 		866D44B5D9627E4C68BF4948551C24A9 /* UIImage+Blur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Blur.h"; path = "UIImage-Helpers/UIImage+Blur.h"; sourceTree = "<group>"; };
 		8917764CE653697A3BDD772C1E65374B /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		932513756D9D45954984DC62805922BD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97C9B81E93B2ACF35EC4FBEA5A3D8B53 /* Pods-pwControls-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pwControls-resources.sh"; sourceTree = "<group>"; };
-		9BD629780FD10F4675D8EC0D7AD5EDA6 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD629780FD10F4675D8EC0D7AD5EDA6 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C44587FD0CC98E6A8989D0D114BCDA1 /* UIImage-Helpers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Helpers-dummy.m"; sourceTree = "<group>"; };
 		9E58D3639C9304E5B5117CA4C64D8BB3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		9E85EF2458C3B008718573A1A4AF820F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		CEA53235BD1F01185195D19670871A8D /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		CF56B997938DD7606E7C07D8B63B882B /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		D12BED510D210082568F88504989343B /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		D15BE60B61258E32165F36AD0705D481 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D15BE60B61258E32165F36AD0705D481 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33F28C55F9565F2A819D041DE2C8FEE /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		D4261C6B7A5453BBECFE69C32C578A53 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
 		D5A25A5C0D6A0AADE3CB98B35DCF0F98 /* UIImage+Screenshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Screenshot.h"; path = "UIImage-Helpers/UIImage+Screenshot.h"; sourceTree = "<group>"; };
@@ -319,6 +319,7 @@
 				549BC800087948E493EF6C5DE2CBD5F5 /* ViewController+MASAdditions.m */,
 				A01373B6B6795D419CCA4A0B9E8A7DB3 /* Support Files */,
 			);
+			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -386,6 +387,7 @@
 				2B8B1ED4ECE65258B7E12C18AD89F9C5 /* Core */,
 				2956F8E1ED28F1E43157F7C0F2ED9F75 /* Support Files */,
 			);
+			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -432,6 +434,7 @@
 				4E98D31BEE1FB8514D1F4CA1D0754F96 /* MBProgressHUD.m */,
 				AA8703B52B6177A513589B9197BA0069 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -480,6 +483,7 @@
 				1B054780B5E2297D4EEC45C9990B9683 /* UIImage-Helpers.h */,
 				2CE53E0FB1D5870BF837DFF6984AEA60 /* Support Files */,
 			);
+			name = "UIImage-Helpers";
 			path = "UIImage-Helpers";
 			sourceTree = "<group>";
 		};
@@ -656,23 +660,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					586F2DFA9BDCC6675C2546793A69E5CC = {
-						LastSwiftMigration = 0820;
-					};
-					67F705BB0B145A2AB6A011667EDD757D = {
-						LastSwiftMigration = 0820;
-					};
-					9DC8D9E02903E93BD0B2FEC9D846EA20 = {
-						LastSwiftMigration = 0820;
-					};
-					F18E48288CBC27FF96448677D7C5F198 = {
-						LastSwiftMigration = 0820;
-					};
-					F4857DA8D9E27152641B038F8626826B = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -794,6 +781,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0091F2648A706D8D7EEC47DC74F81DB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F18E2C664D46D3C76AF0F162B6BCF92 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -838,54 +849,6 @@
 			};
 			name = Debug;
 		};
-		2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 780E10EBAF1444E348FBFC1FEFAD40AC /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		3250F23F415DCB67B71B886C0486C116 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 277635FE76764595B857C7903CDCBAF3 /* UIImage-Helpers.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Helpers/UIImage-Helpers-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		3EA55F516E100520D635C2BAD2341365 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D911C81F80BBA26BD5E41A5AAF5E2CB4 /* Pods-pwControls.debug.xcconfig */;
@@ -906,7 +869,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -950,30 +912,6 @@
 			};
 			name = Release;
 		};
-		5A6ACE61C4D128598EA7472C87982601 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F18E2C664D46D3C76AF0F162B6BCF92 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
 		5B3A8049DF9D44DEC44DE068AE973B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED0321D1889D5D99431D32F2F3D009C3 /* Pods-pwControls.release.xcconfig */;
@@ -994,37 +932,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		5C6F941A5CC472CAB0ADC42DE10DEDAC /* Debug */ = {
+		67490CFBB66525C9555E5D6824C898A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 277635FE76764595B857C7903CDCBAF3 /* UIImage-Helpers.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Helpers/UIImage-Helpers-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		6CA42F62CE0652819ED46936FE31E065 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F18E2C664D46D3C76AF0F162B6BCF92 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1032,8 +945,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Helpers/UIImage-Helpers-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1046,7 +959,31 @@
 			};
 			name = Release;
 		};
-		81D27BBFE39221A11085CC94C71E9978 /* Release */ = {
+		695806EDDFBC8E49EE539CE86695355F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B88ABC3B4FD7D2AD50F39F431D7D26 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		77C293EA2828F5438F73CB42C8739636 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 780E10EBAF1444E348FBFC1FEFAD40AC /* MBProgressHUD.xcconfig */;
 			buildSettings = {
@@ -1070,7 +1007,55 @@
 			};
 			name = Release;
 		};
-		90799396D48DBBA8965DF5A5D8C4582F /* Debug */ = {
+		8508C8240CC2290C83F2F84E9504E580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F18E2C664D46D3C76AF0F162B6BCF92 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8632A87BD07E518A7250A9E62ABA1C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277635FE76764595B857C7903CDCBAF3 /* UIImage-Helpers.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage-Helpers/UIImage-Helpers-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA1A65222DC3808FA2993648787D7055 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63B88ABC3B4FD7D2AD50F39F431D7D26 /* SDWebImage.xcconfig */;
 			buildSettings = {
@@ -1094,19 +1079,19 @@
 			};
 			name = Debug;
 		};
-		EB320ADA7B5D16DF6F2D32ED72078B44 /* Release */ = {
+		F40DFCDCB7D6B84A5B56D29EEBB8D2AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63B88ABC3B4FD7D2AD50F39F431D7D26 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = 780E10EBAF1444E348FBFC1FEFAD40AC /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1116,7 +1101,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1133,8 +1118,8 @@
 		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A6ACE61C4D128598EA7472C87982601 /* Debug */,
-				6CA42F62CE0652819ED46936FE31E065 /* Release */,
+				8508C8240CC2290C83F2F84E9504E580 /* Debug */,
+				0091F2648A706D8D7EEC47DC74F81DB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1142,8 +1127,8 @@
 		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D6505E4F84AB187E42E7D1F17C02FC3 /* Debug */,
-				81D27BBFE39221A11085CC94C71E9978 /* Release */,
+				F40DFCDCB7D6B84A5B56D29EEBB8D2AE /* Debug */,
+				77C293EA2828F5438F73CB42C8739636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1160,8 +1145,8 @@
 		6D417FB7CAC41142363D153EBE9DF900 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90799396D48DBBA8965DF5A5D8C4582F /* Debug */,
-				EB320ADA7B5D16DF6F2D32ED72078B44 /* Release */,
+				AA1A65222DC3808FA2993648787D7055 /* Debug */,
+				695806EDDFBC8E49EE539CE86695355F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1169,8 +1154,8 @@
 		CBD57C6D97637488415CBDB5C10FF70A /* Build configuration list for PBXNativeTarget "UIImage-Helpers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5C6F941A5CC472CAB0ADC42DE10DEDAC /* Debug */,
-				3250F23F415DCB67B71B886C0486C116 /* Release */,
+				8632A87BD07E518A7250A9E62ABA1C47 /* Debug */,
+				67490CFBB66525C9555E5D6824C898A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
