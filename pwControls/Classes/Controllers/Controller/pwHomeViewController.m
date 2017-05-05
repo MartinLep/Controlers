@@ -16,7 +16,7 @@
 #import "pwAlertViewController.h"
 #import "pwSettingViewController.h"
 #import "pwTextViewController.h"
-#import "pwParentViewController.h"
+#import "pwParentController.h"
 
 @interface pwHomeViewController ()
 
@@ -102,8 +102,8 @@ static NSString *cellID = @"cellID";
         }
             break;
         case 6:{
-            pwParentViewController *view = [[pwParentViewController alloc] init];
-            [self.navigationController pushViewController:view animated:tru];
+            pwParentController *view = [[pwParentController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
         }
             break;
         default:

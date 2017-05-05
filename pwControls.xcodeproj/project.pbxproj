@@ -98,8 +98,8 @@
 		BD7B92D41E1B39BB00EA9689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7B92D31E1B39BB00EA9689 /* AppDelegate.m */; };
 		BD7B92DC1E1B39BB00EA9689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7B92DB1E1B39BB00EA9689 /* Assets.xcassets */; };
 		BD7B92DF1E1B39BB00EA9689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7B92DD1E1B39BB00EA9689 /* LaunchScreen.storyboard */; };
-		BDABB5BF1EBB6EBD00611B54 /* pwParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDABB5BD1EBB6EBD00611B54 /* pwParentViewController.m */; };
-		BDABB5C01EBB6EBD00611B54 /* pwParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDABB5BE1EBB6EBD00611B54 /* pwParentViewController.xib */; };
+		BDABB5C91EBC067D00611B54 /* pwParentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDABB5C71EBC067D00611B54 /* pwParentController.m */; };
+		BDABB5CA1EBC067D00611B54 /* pwParentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDABB5C81EBC067D00611B54 /* pwParentController.xib */; };
 		BDC757611E9F1B2100C47689 /* pwDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755EB1E9F1B2000C47689 /* pwDiscoverViewController.m */; };
 		BDC757651E9F1B2100C47689 /* pwAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755F91E9F1B2000C47689 /* pwAlertViewController.m */; };
 		BDC757661E9F1B2100C47689 /* pwHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755FD1E9F1B2000C47689 /* pwHUDViewController.m */; };
@@ -366,9 +366,9 @@
 		BD7B92DB1E1B39BB00EA9689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD7B92DE1E1B39BB00EA9689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD7B92E01E1B39BB00EA9689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BDABB5BC1EBB6EBD00611B54 /* pwParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwParentViewController.h; sourceTree = "<group>"; };
-		BDABB5BD1EBB6EBD00611B54 /* pwParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwParentViewController.m; sourceTree = "<group>"; };
-		BDABB5BE1EBB6EBD00611B54 /* pwParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwParentViewController.xib; sourceTree = "<group>"; };
+		BDABB5C61EBC067D00611B54 /* pwParentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwParentController.h; sourceTree = "<group>"; };
+		BDABB5C71EBC067D00611B54 /* pwParentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwParentController.m; sourceTree = "<group>"; };
+		BDABB5C81EBC067D00611B54 /* pwParentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwParentController.xib; sourceTree = "<group>"; };
 		BDC755EA1E9F1B2000C47689 /* pwDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwDiscoverViewController.h; sourceTree = "<group>"; };
 		BDC755EB1E9F1B2000C47689 /* pwDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwDiscoverViewController.m; sourceTree = "<group>"; };
 		BDC755F81E9F1B2000C47689 /* pwAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwAlertViewController.h; sourceTree = "<group>"; };
@@ -873,9 +873,9 @@
 		BDABB5BB1EBB6E8700611B54 /* 父子控制器 */ = {
 			isa = PBXGroup;
 			children = (
-				BDABB5BC1EBB6EBD00611B54 /* pwParentViewController.h */,
-				BDABB5BD1EBB6EBD00611B54 /* pwParentViewController.m */,
-				BDABB5BE1EBB6EBD00611B54 /* pwParentViewController.xib */,
+				BDABB5C61EBC067D00611B54 /* pwParentController.h */,
+				BDABB5C71EBC067D00611B54 /* pwParentController.m */,
+				BDABB5C81EBC067D00611B54 /* pwParentController.xib */,
 			);
 			path = "父子控制器";
 			sourceTree = "<group>";
@@ -1857,7 +1857,6 @@
 				BD6893091EA5B49F001DC57E /* 32.jpg in Resources */,
 				BD6892721EA45960001DC57E /* 3_0.jpg in Resources */,
 				BD68932F1EA5B49F001DC57E /* 67.jpg in Resources */,
-				BDABB5C01EBB6EBD00611B54 /* pwParentViewController.xib in Resources */,
 				BD7B92DF1E1B39BB00EA9689 /* LaunchScreen.storyboard in Resources */,
 				BD6892F11EA5B49F001DC57E /* 10.jpg in Resources */,
 				BD6893341EA5B49F001DC57E /* 71.jpg in Resources */,
@@ -1871,6 +1870,7 @@
 				BD6892F51EA5B49F001DC57E /* 14.jpg in Resources */,
 				BD6893351EA5B49F001DC57E /* 72.jpg in Resources */,
 				BD6892711EA45960001DC57E /* 2_0.jpg in Resources */,
+				BDABB5CA1EBC067D00611B54 /* pwParentController.xib in Resources */,
 				BD6893381EA5B49F001DC57E /* 75.jpg in Resources */,
 				BD6892F81EA5B49F001DC57E /* 17.jpg in Resources */,
 				BD68932C1EA5B49F001DC57E /* 64.jpg in Resources */,
@@ -1988,6 +1988,7 @@
 				BDC757B71E9F1B2100C47689 /* RACDelegateProxy.m in Sources */,
 				BD2003671EBA2A060031CD70 /* NSObject+Model.m in Sources */,
 				BDC757751E9F1B2100C47689 /* pwPullDownToRefreshViewController.m in Sources */,
+				BDABB5C91EBC067D00611B54 /* pwParentController.m in Sources */,
 				BDC757831E9F1B2100C47689 /* pwSocket.m in Sources */,
 				BDC757A11E9F1B2100C47689 /* NSInvocation+RACTypeParsing.m in Sources */,
 				BDC757D81E9F1B2100C47689 /* RACSubscriber.m in Sources */,
@@ -2018,7 +2019,6 @@
 				BDC757B01E9F1B2100C47689 /* RACArraySequence.m in Sources */,
 				BDC7578B1E9F1B2100C47689 /* NSString+pwBase64.m in Sources */,
 				BDC757A91E9F1B2100C47689 /* NSOrderedSet+RACSequenceAdditions.m in Sources */,
-				BDABB5BF1EBB6EBD00611B54 /* pwParentViewController.m in Sources */,
 				BDC757E11E9F1B2100C47689 /* RACValueTransformer.m in Sources */,
 				BDC757851E9F1B2100C47689 /* pwXMLViewController.m in Sources */,
 				BDC757E71E9F1B2100C47689 /* UIControl+RACSignalSupport.m in Sources */,
