@@ -1,5 +1,5 @@
 //
-//  pwParentViewController.m
+//  pwParentViewController.h
 //  pwControls
 //
 //  Created by MartinLee on 17/5/4.
