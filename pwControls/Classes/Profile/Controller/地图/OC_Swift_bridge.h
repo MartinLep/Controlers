@@ -10,5 +10,6 @@
 #define OC_Swift_bridge_h
 
 #import "pwBaseViewController.h"
+#import "INTULocationManager.h"
 
 #endif /* OC_Swift_bridge_h */

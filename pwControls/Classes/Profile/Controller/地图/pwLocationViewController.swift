@@ -39,6 +39,9 @@ class pwLocationViewController: pwBaseViewController {
         return manager
     }()
     
+    lazy var geoCode : CLGeocoder = {
+        return CLGeocoder()
+    }()
     
     fileprivate lazy var locationButton : UIButton = {
         let location = UIButton(frame: CGRect(x: 100, y: 100, width: 60, height: 60))
@@ -78,6 +81,39 @@ class pwLocationViewController: pwBaseViewController {
         }
         
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        pwLocationTool.shareInstance.getCurrentLocation { (cls, error) in
+            if error != nil {
+                print(cls)
+            }else{
+                print(error)
+            }
+        }
+        
+//        let locMgr = INTULocationManager.sharedInstance()
+////        delayUntilAuthorized 超时时间从什么时候开始计算
+////        true 从用户选择授权开始计算
+////        false 从执行代码开始计算
+//        let requestID = locMgr.requestLocation(withDesiredAccuracy: INTULocationAccuracy.room, timeout: 10, delayUntilAuthorized: true) { (location : CLLocation?, accuracy : INTULocationAccuracy, status : INTULocationStatus) in
+//            if status == .success {
+//                print(location ?? "error")
+//            }else{
+//            }
+//        }
+//        print(requestID)
+////        locMgr.subscribeToLocationUpdates(withDesiredAccuracy: INTULocationAccuracy.room) { (location : CLLocation?, accuracy : INTULocationAccuracy, status : INTULocationStatus) in
+////            if status == .success {
+////                print(location ?? "error")
+////            }else{
+////            }
+////        }
+//////        强制完成
+////        locMgr.forceCompleteLocationRequest(requestID)
+//////        取消定位
+////        locMgr.cancelLocationRequest(requestID)
+        
+    }
 }
 
 extension pwLocationViewController : CLLocationManagerDelegate{
@@ -104,6 +140,19 @@ extension pwLocationViewController : CLLocationManagerDelegate{
          speed:速度
          distanceFromLocation:计算两个经纬度之间的直线距离
          */
+        guard let newLocation = locations.last else{return}
+        if newLocation.horizontalAccuracy < 0 {return}
+//        反地理编码
+        print(newLocation)
+        
+        geoCode.reverseGeocodeLocation(newLocation) { (pls : [CLPlacemark]?, error : Error?) in
+            if error == nil {
+                let pl = pls?.first
+                self.locationButton.setTitle(pl?.locality! ?? "error", for: .normal)
+            }
+        }
+        manager.stopUpdatingLocation()
+        
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
@@ -126,8 +175,6 @@ extension pwLocationViewController : CLLocationManagerDelegate{
             }
             break
         case .restricted: break
-        default:
-            break
         }
     }
     

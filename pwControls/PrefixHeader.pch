@@ -20,6 +20,7 @@
 //添加的全局类
 #import "Masonry.h"
 
+#import "INTULocationManager.h"
 #import "UIImage+pwAddition.h"
 #import "UIView+pwAddition.h"
 #import "NSArray+NSLog.h"
