@@ -13,6 +13,7 @@
 #import "NSObject+Model.h"
 #import "pwStatusModel.h"
 #import "Animal.h"
+#import "pwControls-swift.h"
 @interface pwProfileViewController ()
 
 @property (nonatomic,strong) NSArray *dataArray;
@@ -24,10 +25,11 @@
 
 - (NSArray *)dataArray{
     if(_dataArray == nil){
-        _dataArray = [NSArray arrayWithObjects:@"链式编程",@"消息机制",@"RunTime实现字典转模型",nil];
+        _dataArray = [NSArray arrayWithObjects:@"链式编程",@"消息机制",@"RunTime实现字典转模型",@"地图",@"指南针",@"地域监听",@"地理编码&反地理编码",nil];
     }
     return _dataArray;
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
@@ -67,6 +69,27 @@
             NSString *path = [[NSBundle mainBundle] pathForResource:@"status.plist" ofType:nil];
             NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:path];
             pwStatusModel *model = [pwStatusModel modelWithDictionary:dict];
+            NSLog(@"model = %@",model);
+        }
+            break;
+        case 3:{
+            pwLocationViewController *view = [[pwLocationViewController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 4:{
+            pwCompassViewController *view = [[pwCompassViewController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 5:{
+            pwLocationMonitor *view = [[pwLocationMonitor alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 6:{
+            pwLocationDecode *view = [[pwLocationDecode alloc] init];
+            [self.navigationController pushViewController:view animated:true];
         }
             break;
         default:

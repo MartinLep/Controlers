@@ -100,6 +100,17 @@
 		BD7B92DF1E1B39BB00EA9689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7B92DD1E1B39BB00EA9689 /* LaunchScreen.storyboard */; };
 		BDABB5C91EBC067D00611B54 /* pwParentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDABB5C71EBC067D00611B54 /* pwParentController.m */; };
 		BDABB5CA1EBC067D00611B54 /* pwParentController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDABB5C81EBC067D00611B54 /* pwParentController.xib */; };
+		BDABB5DB1EBD903D00611B54 /* pwLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDABB5DA1EBD903D00611B54 /* pwLayoutViewController.m */; };
+		BDABB5E51EBD973A00611B54 /* pwPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDABB5E31EBD973A00611B54 /* pwPhotoCollectionViewCell.m */; };
+		BDABB5E61EBD973A00611B54 /* pwPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDABB5E41EBD973A00611B54 /* pwPhotoCollectionViewCell.xib */; };
+		BDB843271EBDAFD400098626 /* pwPhotoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB843261EBDAFD400098626 /* pwPhotoLayout.m */; };
+		BDB843321EC051DB00098626 /* pwLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB843311EC051DB00098626 /* pwLocationViewController.swift */; };
+		BDB843351EC053F500098626 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB843341EC053F400098626 /* CoreLocation.framework */; };
+		BDB8433A1EC18A6A00098626 /* pwCompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB843381EC18A6900098626 /* pwCompassViewController.swift */; };
+		BDB8433B1EC18A6A00098626 /* pwCompassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB843391EC18A6900098626 /* pwCompassViewController.xib */; };
+		BDB8433E1EC1984A00098626 /* pwLocationMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8433D1EC1984A00098626 /* pwLocationMonitor.swift */; };
+		BDB843441EC1BB9B00098626 /* pwLocationDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB843421EC1BB9B00098626 /* pwLocationDecode.swift */; };
+		BDB843451EC1BB9B00098626 /* pwLocationDecode.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDB843431EC1BB9B00098626 /* pwLocationDecode.xib */; };
 		BDC757611E9F1B2100C47689 /* pwDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755EB1E9F1B2000C47689 /* pwDiscoverViewController.m */; };
 		BDC757651E9F1B2100C47689 /* pwAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755F91E9F1B2000C47689 /* pwAlertViewController.m */; };
 		BDC757661E9F1B2100C47689 /* pwHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC755FD1E9F1B2000C47689 /* pwHUDViewController.m */; };
@@ -369,6 +380,21 @@
 		BDABB5C61EBC067D00611B54 /* pwParentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwParentController.h; sourceTree = "<group>"; };
 		BDABB5C71EBC067D00611B54 /* pwParentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwParentController.m; sourceTree = "<group>"; };
 		BDABB5C81EBC067D00611B54 /* pwParentController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwParentController.xib; sourceTree = "<group>"; };
+		BDABB5D91EBD903D00611B54 /* pwLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwLayoutViewController.h; sourceTree = "<group>"; };
+		BDABB5DA1EBD903D00611B54 /* pwLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwLayoutViewController.m; sourceTree = "<group>"; };
+		BDABB5E21EBD973A00611B54 /* pwPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		BDABB5E31EBD973A00611B54 /* pwPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		BDABB5E41EBD973A00611B54 /* pwPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		BDB843251EBDAFD400098626 /* pwPhotoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwPhotoLayout.h; sourceTree = "<group>"; };
+		BDB843261EBDAFD400098626 /* pwPhotoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwPhotoLayout.m; sourceTree = "<group>"; };
+		BDB843311EC051DB00098626 /* pwLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwLocationViewController.swift; sourceTree = "<group>"; };
+		BDB843331EC0521400098626 /* OC_Swift_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OC_Swift_bridge.h; sourceTree = "<group>"; };
+		BDB843341EC053F400098626 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDB843381EC18A6900098626 /* pwCompassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwCompassViewController.swift; sourceTree = "<group>"; };
+		BDB843391EC18A6900098626 /* pwCompassViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwCompassViewController.xib; sourceTree = "<group>"; };
+		BDB8433D1EC1984A00098626 /* pwLocationMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwLocationMonitor.swift; sourceTree = "<group>"; };
+		BDB843421EC1BB9B00098626 /* pwLocationDecode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwLocationDecode.swift; sourceTree = "<group>"; };
+		BDB843431EC1BB9B00098626 /* pwLocationDecode.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwLocationDecode.xib; sourceTree = "<group>"; };
 		BDC755EA1E9F1B2000C47689 /* pwDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwDiscoverViewController.h; sourceTree = "<group>"; };
 		BDC755EB1E9F1B2000C47689 /* pwDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwDiscoverViewController.m; sourceTree = "<group>"; };
 		BDC755F81E9F1B2000C47689 /* pwAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwAlertViewController.h; sourceTree = "<group>"; };
@@ -702,6 +728,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDB843351EC053F500098626 /* CoreLocation.framework in Frameworks */,
 				1E5BAD99156078B7FDF6CB2C /* libPods-pwControls.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +748,7 @@
 		A5D6E79DA691A2420401CC2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDB843341EC053F400098626 /* CoreLocation.framework */,
 				67CCEFFB2DDC6784165E3786 /* libPods-pwControls.a */,
 			);
 			name = Frameworks;
@@ -880,6 +908,73 @@
 			path = "父子控制器";
 			sourceTree = "<group>";
 		};
+		BDABB5D81EBD8FE800611B54 /* 图片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				BDABB5E11EBD973A00611B54 /* PhotoCell */,
+				BDB843241EBDAFBE00098626 /* PhotoLayout */,
+				BDABB5D91EBD903D00611B54 /* pwLayoutViewController.h */,
+				BDABB5DA1EBD903D00611B54 /* pwLayoutViewController.m */,
+			);
+			name = "图片浏览器";
+			path = "流水布局";
+			sourceTree = "<group>";
+		};
+		BDABB5E11EBD973A00611B54 /* PhotoCell */ = {
+			isa = PBXGroup;
+			children = (
+				BDABB5E21EBD973A00611B54 /* pwPhotoCollectionViewCell.h */,
+				BDABB5E31EBD973A00611B54 /* pwPhotoCollectionViewCell.m */,
+				BDABB5E41EBD973A00611B54 /* pwPhotoCollectionViewCell.xib */,
+			);
+			path = PhotoCell;
+			sourceTree = "<group>";
+		};
+		BDB843241EBDAFBE00098626 /* PhotoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BDB843251EBDAFD400098626 /* pwPhotoLayout.h */,
+				BDB843261EBDAFD400098626 /* pwPhotoLayout.m */,
+			);
+			path = PhotoLayout;
+			sourceTree = "<group>";
+		};
+		BDB843301EC051CF00098626 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB843331EC0521400098626 /* OC_Swift_bridge.h */,
+				BDB843311EC051DB00098626 /* pwLocationViewController.swift */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		BDB843371EC18A2900098626 /* 指南针 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB843381EC18A6900098626 /* pwCompassViewController.swift */,
+				BDB843391EC18A6900098626 /* pwCompassViewController.xib */,
+			);
+			path = "指南针";
+			sourceTree = "<group>";
+		};
+		BDB8433C1EC1981700098626 /* 地域监听 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8433D1EC1984A00098626 /* pwLocationMonitor.swift */,
+			);
+			path = "地域监听";
+			sourceTree = "<group>";
+		};
+		BDB8433F1EC1A14500098626 /* 地理编码和反地理编码 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB843421EC1BB9B00098626 /* pwLocationDecode.swift */,
+				BDB843431EC1BB9B00098626 /* pwLocationDecode.xib */,
+			);
+			name = "地理编码和反地理编码";
+			path = "地域监听/地理编码和反地理编码";
+			sourceTree = "<group>";
+		};
 		BDC755E51E9F1B2000C47689 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -970,6 +1065,7 @@
 				BDC756101E9F1B2000C47689 /* 下拉刷新 */,
 				BDC7561C1E9F1B2000C47689 /* 大图显示 */,
 				BDABB5BB1EBB6E8700611B54 /* 父子控制器 */,
+				BDABB5D81EBD8FE800611B54 /* 图片浏览器 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1316,6 +1412,10 @@
 		BDC7565C1E9F1B2000C47689 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BDB843301EC051CF00098626 /* 地图 */,
+				BDB843371EC18A2900098626 /* 指南针 */,
+				BDB8433C1EC1981700098626 /* 地域监听 */,
+				BDB8433F1EC1A14500098626 /* 地理编码和反地理编码 */,
 				BDC7565D1E9F1B2000C47689 /* pwProfileViewController.h */,
 				BDC7565E1E9F1B2000C47689 /* pwProfileViewController.m */,
 			);
@@ -1800,6 +1900,11 @@
 						DevelopmentTeam = CM4BDVY9GY;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -1841,6 +1946,7 @@
 				BD6893251EA5B49F001DC57E /* 58.jpg in Resources */,
 				BD68932D1EA5B49F001DC57E /* 65.jpg in Resources */,
 				BD68932E1EA5B49F001DC57E /* 66.jpg in Resources */,
+				BDB843451EC1BB9B00098626 /* pwLocationDecode.xib in Resources */,
 				BD6892FD1EA5B49F001DC57E /* 21.jpg in Resources */,
 				BDC7576E1E9F1B2100C47689 /* refreshing_01.png in Resources */,
 				BD6893031EA5B49F001DC57E /* 27.jpg in Resources */,
@@ -1869,6 +1975,7 @@
 				BD68931E1EA5B49F001DC57E /* 51.jpg in Resources */,
 				BD6892F51EA5B49F001DC57E /* 14.jpg in Resources */,
 				BD6893351EA5B49F001DC57E /* 72.jpg in Resources */,
+				BDABB5E61EBD973A00611B54 /* pwPhotoCollectionViewCell.xib in Resources */,
 				BD6892711EA45960001DC57E /* 2_0.jpg in Resources */,
 				BDABB5CA1EBC067D00611B54 /* pwParentController.xib in Resources */,
 				BD6893381EA5B49F001DC57E /* 75.jpg in Resources */,
@@ -1885,6 +1992,7 @@
 				BD6893061EA5B49F001DC57E /* 3.jpg in Resources */,
 				BD68932A1EA5B49F001DC57E /* 62.jpg in Resources */,
 				BD68931F1EA5B49F001DC57E /* 52.jpg in Resources */,
+				BDB8433B1EC18A6A00098626 /* pwCompassViewController.xib in Resources */,
 				BD6892F01EA5B49F001DC57E /* 1.jpg in Resources */,
 				BD6893321EA5B49F001DC57E /* 7.jpg in Resources */,
 				BD6892F61EA5B49F001DC57E /* 15.jpg in Resources */,
@@ -2005,12 +2113,14 @@
 				BDC757EE1E9F1B2100C47689 /* UISlider+RACSignalSupport.m in Sources */,
 				BDC757EB1E9F1B2100C47689 /* UIImagePickerController+RACSignalSupport.m in Sources */,
 				BDC757A51E9F1B2100C47689 /* NSObject+RACKVOWrapper.m in Sources */,
+				BDABB5DB1EBD903D00611B54 /* pwLayoutViewController.m in Sources */,
 				BDC7579A1E9F1B2100C47689 /* MKAnnotationView+RACSignalSupport.m in Sources */,
 				BDDF87901EB885D300D64018 /* NSDictionary+Property.m in Sources */,
 				BDC757D21E9F1B2100C47689 /* RACSignal.m in Sources */,
 				BDC757CF1E9F1B2100C47689 /* RACSequence.m in Sources */,
 				BDC757691E9F1B2100C47689 /* pwSettingViewController.m in Sources */,
 				BDC7579F1E9F1B2100C47689 /* NSFileHandle+RACSupport.m in Sources */,
+				BDB843321EC051DB00098626 /* pwLocationViewController.swift in Sources */,
 				BDC757B31E9F1B2100C47689 /* RACChannel.m in Sources */,
 				BDC7582F1E9F64FF00C47689 /* pwAlertView.m in Sources */,
 				BDC757D61E9F1B2100C47689 /* RACStringSequence.m in Sources */,
@@ -2032,12 +2142,14 @@
 				BDC757E91E9F1B2100C47689 /* UIDatePicker+RACSignalSupport.m in Sources */,
 				BDC757B51E9F1B2100C47689 /* RACCompoundDisposable.m in Sources */,
 				BDC757741E9F1B2100C47689 /* pwPullDownToRefreshView.m in Sources */,
+				BDABB5E51EBD973A00611B54 /* pwPhotoCollectionViewCell.m in Sources */,
 				BDC7579D1E9F1B2100C47689 /* NSDictionary+RACSequenceAdditions.m in Sources */,
 				BDC757AD1E9F1B2100C47689 /* NSString+RACSupport.m in Sources */,
 				BDC757DD1E9F1B2100C47689 /* RACTuple.m in Sources */,
 				BDC757BE1E9F1B2100C47689 /* RACEmptySignal.m in Sources */,
 				BDC757651E9F1B2100C47689 /* pwAlertViewController.m in Sources */,
 				BDC757D51E9F1B2100C47689 /* RACStream.m in Sources */,
+				BDB8433E1EC1984A00098626 /* pwLocationMonitor.swift in Sources */,
 				BDC758281E9F64EF00C47689 /* pwRadarController.m in Sources */,
 				BD6892A31EA5B3B7001DC57E /* pwDisplayLinkController.m in Sources */,
 				BDC757881E9F1B2100C47689 /* pwProfileViewController.m in Sources */,
@@ -2051,6 +2163,7 @@
 				BDC757D01E9F1B2100C47689 /* RACSerialDisposable.m in Sources */,
 				BDC757C31E9F1B2100C47689 /* RACIndexSetSequence.m in Sources */,
 				BDC757D11E9F1B2100C47689 /* RACSignal+Operations.m in Sources */,
+				BDB8433A1EC18A6A00098626 /* pwCompassViewController.swift in Sources */,
 				BDC757A71E9F1B2100C47689 /* NSObject+RACPropertySubscribing.m in Sources */,
 				BDC757771E9F1B2100C47689 /* pwShowPictureViewController.m in Sources */,
 				BDC757C91E9F1B2100C47689 /* RACPassthroughSubscriber.m in Sources */,
@@ -2123,10 +2236,12 @@
 				BDC757811E9F1B2100C47689 /* pwPlistViewController.m in Sources */,
 				BDC757AB1E9F1B2100C47689 /* NSString+RACKeyPathUtilities.m in Sources */,
 				BDC757921E9F1B2100C47689 /* UIBarButtonItem+pwExtension.m in Sources */,
+				BDB843271EBDAFD400098626 /* pwPhotoLayout.m in Sources */,
 				BDC757BA1E9F1B2100C47689 /* RACDynamicSequence.m in Sources */,
 				BDDF87851EB8673A00D64018 /* Animal.m in Sources */,
 				BDC757661E9F1B2100C47689 /* pwHUDViewController.m in Sources */,
 				BDC7578D1E9F1B2100C47689 /* UIButton+pwAddition.m in Sources */,
+				BDB843441EC1BB9B00098626 /* pwLocationDecode.swift in Sources */,
 				BDC757DA1E9F1B2100C47689 /* RACSubscriptionScheduler.m in Sources */,
 				BDC757A61E9F1B2100C47689 /* NSObject+RACLifting.m in Sources */,
 				BDC757D31E9F1B2100C47689 /* RACSignalProvider.d in Sources */,
@@ -2251,6 +2366,8 @@
 			baseConfigurationReference = A5CB5CB120CB762C0FFD42C3 /* Pods-pwControls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CM4BDVY9GY;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pwControls/PrefixHeader.pch";
@@ -2263,7 +2380,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = pwControls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2283,6 +2400,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.puwell.pwControls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/MartinLee/Controlers/pwControls/Classes/Profile/Controller/地图/OC_Swift_bridge.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -2292,6 +2411,8 @@
 			baseConfigurationReference = 24B3173ED6453C82978308C6 /* Pods-pwControls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = CM4BDVY9GY;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pwControls/PrefixHeader.pch";
@@ -2304,7 +2425,7 @@
 					/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = pwControls/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -2324,6 +2445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.puwell.pwControls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Volumes/MartinLee/Controlers/pwControls/Classes/Profile/Controller/地图/OC_Swift_bridge.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

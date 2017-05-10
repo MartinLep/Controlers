@@ -17,6 +17,7 @@
 #import "pwSettingViewController.h"
 #import "pwTextViewController.h"
 #import "pwParentController.h"
+#import "pwLayoutViewController.h"
 
 @interface pwHomeViewController ()
 
@@ -50,7 +51,8 @@ static NSString *cellID = @"cellID";
                        @"AlertView",
                        @"pwSet",
                        @"UITextView自定义placeholder属性",
-                       @"父子控制器"];
+                       @"父子控制器",
+                       @"图片浏览器"];
 }
 
 #pragma mark UITableView代理方法
@@ -106,6 +108,11 @@ static NSString *cellID = @"cellID";
             [self.navigationController pushViewController:view animated:true];
         }
             break;
+        case 7:{
+            pwLayoutViewController *view = [[pwLayoutViewController alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
         default:
             break;
     }
@@ -136,6 +143,7 @@ static NSString *cellID = @"cellID";
         self.isPullUp = false;
     });
 }
+
 
 
 @end
