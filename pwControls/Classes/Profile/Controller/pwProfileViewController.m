@@ -25,7 +25,7 @@
 
 - (NSArray *)dataArray{
     if(_dataArray == nil){
-        _dataArray = [NSArray arrayWithObjects:@"链式编程",@"消息机制",@"RunTime实现字典转模型",@"地图",@"指南针",@"地域监听",@"地理编码&反地理编码",nil];
+        _dataArray = [NSArray arrayWithObjects:@"链式编程",@"消息机制",@"RunTime实现字典转模型",@"地图",@"指南针",@"地域监听",@"地理编码&反地理编码",@"显示地图",nil];
     }
     return _dataArray;
 }
@@ -89,6 +89,11 @@
             break;
         case 6:{
             pwLocationDecode *view = [[pwLocationDecode alloc] init];
+            [self.navigationController pushViewController:view animated:true];
+        }
+            break;
+        case 7:{
+            pwMapViewController *view = [[pwMapViewController alloc] init];
             [self.navigationController pushViewController:view animated:true];
         }
             break;

@@ -10,6 +10,9 @@
 		60178B33539BA10C5A4EA2C9 /* libPods-pwControls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2F64FE8EAFC3D69896BBCA /* libPods-pwControls.a */; };
 		BD2003671EBA2A060031CD70 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2003661EBA2A060031CD70 /* NSObject+Model.m */; };
 		BD20036A1EBA30D50031CD70 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2003691EBA30D50031CD70 /* User.m */; };
+		BD2F93A71EC4A87D00D63583 /* pwAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2F93A61EC4A87D00D63583 /* pwAnnotation.swift */; };
+		BD3A57961EC5A06B002DC030 /* pwNavigationMapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3A57941EC5A06B002DC030 /* pwNavigationMapViewViewController.swift */; };
+		BD3A57971EC5A06B002DC030 /* pwNavigationMapViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3A57951EC5A06B002DC030 /* pwNavigationMapViewViewController.xib */; };
 		BD68926F1EA45960001DC57E /* 0_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926A1EA45960001DC57E /* 0_0.jpg */; };
 		BD6892701EA45960001DC57E /* 1_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926B1EA45960001DC57E /* 1_0.jpg */; };
 		BD6892711EA45960001DC57E /* 2_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD68926C1EA45960001DC57E /* 2_0.jpg */; };
@@ -271,6 +274,9 @@
 		BDD50DEA1EC2DEF700CE6F5F /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD50DE41EC2DEF700CE6F5F /* INTULocationRequest.m */; };
 		BDD50DEB1EC2DEF700CE6F5F /* INTURequestIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD50DE71EC2DEF700CE6F5F /* INTURequestIDGenerator.m */; };
 		BDD50DEE1EC2ED1500CE6F5F /* pwLocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD50DED1EC2ED1500CE6F5F /* pwLocationTool.swift */; };
+		BDD50DF21EC35A8700CE6F5F /* pwMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD50DF01EC35A8700CE6F5F /* pwMapViewController.swift */; };
+		BDD50DF31EC35A8700CE6F5F /* pwMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDD50DF11EC35A8700CE6F5F /* pwMapViewController.xib */; };
+		BDD50DF51EC35C4700CE6F5F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDD50DF41EC35C4700CE6F5F /* MapKit.framework */; };
 		BDDF87801EB33AEA00D64018 /* pwChainCaculatorBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF877F1EB33AEA00D64018 /* pwChainCaculatorBlock.m */; };
 		BDDF87851EB8673A00D64018 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF87841EB8673A00D64018 /* Animal.m */; };
 		BDDF87881EB8772800D64018 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDF87871EB8772800D64018 /* NSObject+Property.m */; };
@@ -288,6 +294,9 @@
 		BD2003661EBA2A060031CD70 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 		BD2003681EBA30D50031CD70 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		BD2003691EBA30D50031CD70 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BD2F93A61EC4A87D00D63583 /* pwAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwAnnotation.swift; sourceTree = "<group>"; };
+		BD3A57941EC5A06B002DC030 /* pwNavigationMapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwNavigationMapViewViewController.swift; sourceTree = "<group>"; };
+		BD3A57951EC5A06B002DC030 /* pwNavigationMapViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwNavigationMapViewViewController.xib; sourceTree = "<group>"; };
 		BD68926A1EA45960001DC57E /* 0_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_0.jpg; sourceTree = "<group>"; };
 		BD68926B1EA45960001DC57E /* 1_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1_0.jpg; sourceTree = "<group>"; };
 		BD68926C1EA45960001DC57E /* 2_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2_0.jpg; sourceTree = "<group>"; };
@@ -725,6 +734,9 @@
 		BDD50DE61EC2DEF700CE6F5F /* INTURequestIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTURequestIDGenerator.h; sourceTree = "<group>"; };
 		BDD50DE71EC2DEF700CE6F5F /* INTURequestIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTURequestIDGenerator.m; sourceTree = "<group>"; };
 		BDD50DED1EC2ED1500CE6F5F /* pwLocationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwLocationTool.swift; sourceTree = "<group>"; };
+		BDD50DF01EC35A8700CE6F5F /* pwMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pwMapViewController.swift; sourceTree = "<group>"; };
+		BDD50DF11EC35A8700CE6F5F /* pwMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = pwMapViewController.xib; sourceTree = "<group>"; };
+		BDD50DF41EC35C4700CE6F5F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BDDF877E1EB33AEA00D64018 /* pwChainCaculatorBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwChainCaculatorBlock.h; sourceTree = "<group>"; };
 		BDDF877F1EB33AEA00D64018 /* pwChainCaculatorBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pwChainCaculatorBlock.m; sourceTree = "<group>"; };
 		BDDF87831EB8673A00D64018 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
@@ -744,6 +756,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD50DF51EC35C4700CE6F5F /* MapKit.framework in Frameworks */,
 				BDB843351EC053F500098626 /* CoreLocation.framework in Frameworks */,
 				60178B33539BA10C5A4EA2C9 /* libPods-pwControls.a in Frameworks */,
 			);
@@ -764,10 +777,20 @@
 		A5D6E79DA691A2420401CC2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDD50DF41EC35C4700CE6F5F /* MapKit.framework */,
 				BDB843341EC053F400098626 /* CoreLocation.framework */,
 				0D2F64FE8EAFC3D69896BBCA /* libPods-pwControls.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3A57931EC5A037002DC030 /* 导航 */ = {
+			isa = PBXGroup;
+			children = (
+				BD3A57941EC5A06B002DC030 /* pwNavigationMapViewViewController.swift */,
+				BD3A57951EC5A06B002DC030 /* pwNavigationMapViewViewController.xib */,
+			);
+			path = "导航";
 			sourceTree = "<group>";
 		};
 		BD6892A01EA5B314001DC57E /* CADisplayLink */ = {
@@ -955,12 +978,13 @@
 			path = PhotoLayout;
 			sourceTree = "<group>";
 		};
-		BDB843301EC051CF00098626 /* 地图 */ = {
+		BDB843301EC051CF00098626 /* 定位 */ = {
 			isa = PBXGroup;
 			children = (
 				BDB843331EC0521400098626 /* OC_Swift_bridge.h */,
 				BDB843311EC051DB00098626 /* pwLocationViewController.swift */,
 			);
+			name = "定位";
 			path = "地图";
 			sourceTree = "<group>";
 		};
@@ -1315,10 +1339,10 @@
 		BDC7563E1E9F1B2000C47689 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BDC7563F1E9F1B2000C47689 /* Json解析 */,
-				BDC756441E9F1B2000C47689 /* Plist解析 */,
 				BDC756471E9F1B2000C47689 /* pwMessageViewController.h */,
 				BDC756481E9F1B2000C47689 /* pwMessageViewController.m */,
+				BDC7563F1E9F1B2000C47689 /* Json解析 */,
+				BDC756441E9F1B2000C47689 /* Plist解析 */,
 				BDC756491E9F1B2000C47689 /* Socket */,
 				BDC7564C1E9F1B2000C47689 /* XML解析 */,
 			);
@@ -1428,12 +1452,14 @@
 		BDC7565C1E9F1B2000C47689 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BDB843301EC051CF00098626 /* 地图 */,
+				BDC7565D1E9F1B2000C47689 /* pwProfileViewController.h */,
+				BDC7565E1E9F1B2000C47689 /* pwProfileViewController.m */,
+				BDB843301EC051CF00098626 /* 定位 */,
 				BDB843371EC18A2900098626 /* 指南针 */,
 				BDB8433C1EC1981700098626 /* 地域监听 */,
 				BDB8433F1EC1A14500098626 /* 地理编码和反地理编码 */,
-				BDC7565D1E9F1B2000C47689 /* pwProfileViewController.h */,
-				BDC7565E1E9F1B2000C47689 /* pwProfileViewController.m */,
+				BDD50DEF1EC35A6A00CE6F5F /* MapView */,
+				BD3A57931EC5A037002DC030 /* 导航 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1905,6 +1931,16 @@
 			path = pwLocationTool;
 			sourceTree = "<group>";
 		};
+		BDD50DEF1EC35A6A00CE6F5F /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				BDD50DF01EC35A8700CE6F5F /* pwMapViewController.swift */,
+				BDD50DF11EC35A8700CE6F5F /* pwMapViewController.xib */,
+				BD2F93A61EC4A87D00D63583 /* pwAnnotation.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2018,6 +2054,7 @@
 				BD68931E1EA5B49F001DC57E /* 51.jpg in Resources */,
 				BD6892F51EA5B49F001DC57E /* 14.jpg in Resources */,
 				BD6893351EA5B49F001DC57E /* 72.jpg in Resources */,
+				BDD50DF31EC35A8700CE6F5F /* pwMapViewController.xib in Resources */,
 				BDABB5E61EBD973A00611B54 /* pwPhotoCollectionViewCell.xib in Resources */,
 				BD6892711EA45960001DC57E /* 2_0.jpg in Resources */,
 				BDABB5CA1EBC067D00611B54 /* pwParentController.xib in Resources */,
@@ -2040,6 +2077,7 @@
 				BD6893321EA5B49F001DC57E /* 7.jpg in Resources */,
 				BD6892F61EA5B49F001DC57E /* 15.jpg in Resources */,
 				BD6893131EA5B49F001DC57E /* 41.jpg in Resources */,
+				BD3A57971EC5A06B002DC030 /* pwNavigationMapViewViewController.xib in Resources */,
 				BDC757701E9F1B2100C47689 /* refreshing_03.png in Resources */,
 				BD6893301EA5B49F001DC57E /* 68.jpg in Resources */,
 				BD6892FF1EA5B49F001DC57E /* 23.jpg in Resources */,
@@ -2168,6 +2206,7 @@
 				BDC757B31E9F1B2100C47689 /* RACChannel.m in Sources */,
 				BDC7582F1E9F64FF00C47689 /* pwAlertView.m in Sources */,
 				BDC757D61E9F1B2100C47689 /* RACStringSequence.m in Sources */,
+				BD2F93A71EC4A87D00D63583 /* pwAnnotation.swift in Sources */,
 				BDC757BD1E9F1B2100C47689 /* RACEmptySequence.m in Sources */,
 				BD68942D1EA77F07001DC57E /* UIImageView+GifTool.m in Sources */,
 				BDC757B01E9F1B2100C47689 /* RACArraySequence.m in Sources */,
@@ -2255,6 +2294,7 @@
 				BDC757791E9F1B2100C47689 /* pwSettingItemModel.m in Sources */,
 				BDC757BB1E9F1B2100C47689 /* RACDynamicSignal.m in Sources */,
 				BDC757681E9F1B2100C47689 /* pwSettingCell.m in Sources */,
+				BD3A57961EC5A06B002DC030 /* pwNavigationMapViewViewController.swift in Sources */,
 				BDC757841E9F1B2100C47689 /* pwDOMToParserXML.m in Sources */,
 				BDC757EA1E9F1B2100C47689 /* UIGestureRecognizer+RACSignalSupport.m in Sources */,
 				BDC758581EA0BEB200C47689 /* pwView.m in Sources */,
@@ -2279,6 +2319,7 @@
 				BDC757AF1E9F1B2100C47689 /* NSUserDefaults+RACSupport.m in Sources */,
 				BDC757DB1E9F1B2100C47689 /* RACTargetQueueScheduler.m in Sources */,
 				BDC7577F1E9F1B2100C47689 /* pwJsonMessageModel.m in Sources */,
+				BDD50DF21EC35A8700CE6F5F /* pwMapViewController.swift in Sources */,
 				BDC7577C1E9F1B2100C47689 /* pwNavigationController.m in Sources */,
 				BDDF878D1EB883FC00D64018 /* pwStatusModel.m in Sources */,
 				BDC757811E9F1B2100C47689 /* pwPlistViewController.m in Sources */,
